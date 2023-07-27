@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Dark"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./fonts/helmet-1.0/Helmet-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Light"; /*Can be any text*/
+  src: local("AirbnbCerealLight"),
+    url("./fonts/HelveticaNeue-Light/HelveticaNeue-Light.ttf")
+      format("truetype");
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
